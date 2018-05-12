@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Valid class styles:
+'qigong'
+'taiji'
+'wushu'
+'sanshou'
+'xingyi'
+'bagua'
+'lhbf'
+'xiaoyao'
+-->
+<schedule>
+	<announcement>
+		<title>Upcoming 24 form Taiji - Beginner class</title>
+		<description>The 24 form Taiji is a standarized Taiji quan routine that was compiled by the Chinese Sports Committee in 1956. It is based on the Yang style Taijiquan, taking about six minutes to perform. It gives beginner an introduction to the essetial elements of Taijiquan, yet retain the traditional flavor of the traditional longer hand forms. It is a great foundation for beginners.\nClass starts on June 05th, 2017, every Monday, 6-7pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2017-05-10</showUntilDate>
+	</announcement> 
+	<announcement>
+		<title>Upcoming Traditional Yang Style Taiji long form 108</title>
+		<description>Yang style Taiji is one of the most popular and widely practised style in the world today. It's known for its soft and graceful movements. The form is practiced most often for its calming meditational and health benefit purpose.\nClass starts on June 5th, 2017, every Monday 7-8pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2017-07-10</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming 32 Taiji Sword - Beginner Sword class</title>
+		<description>The 32 Taiji Sword is a standarized Taiji sword routine that was compiled by the Chinese Sports Committee in 1957. It is based on the traditional Yang style Taiji Sword routine. It gives beginner an introduction to the essetial elements of Taiji sword, yet retain the traditional flavor of the traditional Yang style Taiji sword form. It is a great foundation for beginners.\nClass starts on May 27th, 2017, every Saturday, 3-4pm.\nClass starts on June 27th, 2017, every Tuesday, 6-7pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2017-08-15</showUntilDate>
+	</announcement> 
+	<announcement>
+		<title>Upcoming Chen Style Taiji Sword class</title>
+		<description>Chen style Taiji is known for its silk reeling power and steady footwork. Sword is the most widely practiced weapon for Taiji. The movements in this routine are sometimes slow, sometimes fast, sometimes soft, sometimes hard, sometimes high and sometimes low. It is graceful and powerful.\n\nClass starts May 18th, 2017, Thur, 7-8pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2017-06-30</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>New Simplified Tai Chi For Beginner 24 form DVD by Master Helen Liang is now available!</title>
+		<description>In this DVD Master Helen Liang is not only giving beautiful demonstration of the form, she also presents thorough teaching on the basics of Taichi, movement details and applications.  Simplified Tai Chi 24 for Beginners DVD is the perfect way to experience the amazing health benefits of a shortened tai chi form, no matter your current fitness level.</description>>
+		<moreLink>http://shouyuliang.com/dvd/simplified-taiji-for-beginners.php</moreLink>	
+	<showUntilDate>2016-02-30</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming Chen Style 56 Compulsory Routine class</title>
+		<description>Chen style Taiji is known for its silk reeling power and steady footwork. Chen Style 56 is a compulsory routine which was compiled by Chinese Sport Committee based on the traditional Chen style No 1 and No 2 routine. .\n\nClass starts Dec 15th, 2016, Thur, 6-7pm</description>>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2017-01-21</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>SYL Annual Potluck Party</title>
+		<description>Date: 9am to afternoon Sunday Aug 2nd, 2015\nLocation: A farm in Langley. 6750 232St Langley.\nBring food, friends, and family!</description>>
+		<showUntilDate>2015-08-03</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming Liu He Ba Fa (Water style) Sword class</title>
+		<description>Liu He Ba Fa Sword is a sword form utilizes the techniques and skills of Liu He Ba Fa style. Liu He Ba Fa (Water Style) is one of the major internal style martial arts. It originally passed down from generation to generation only to a handful of gifted and chosen students with exemplary courage and moral character. Liu He Ba Fa literally means Six Harmonies and Eight Principles. It utilizes the power of Xingyi as its center, utilizes the stepping patterns of Bagua for its turning and spinning, and utilizes the neutralizing power of Taiji for its variations. Its movements are sometimes high, sometimes low, sometimes fast, sometimes slow. These movements resemble that of floating clouds, and flowing water that is sometimes calm, sometimes surging. Therefore, it is also known as Water Style.\n\nClass starts on Dec 8th, 2016, Thur, 7-8pm </description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/liu-he-ba-fa-class.shtml</moreLink>
+		<showUntilDate>2017-01-25</showUntilDate>
+    	</announcement>
+	<announcement>
+		<title>Upcoming Water Style class</title>
+		<description>Liu He Ba Fa (Water Style) is one of the major internal style martial arts. It originally passed down from generation to generation only to a handful of gifted and chosen students with exemplary courage and moral character. Liu He Ba Fa literally means Six Harmonies and Eight Principles. It utilizes the power of Xingyi as its center, utilizes the stepping patterns of Bagua for its turning and spinning, and utilizes the neutralizing power of Taiji for its variations. Its movements are sometimes high, sometimes low, sometimes fast, sometimes slow. These movements resemble that of floating clouds, and flowing water that is sometimes calm, sometimes surging. Therefore, it is also known as Water Style.\n\nClass starts on Dec 3rd, 2015, Thur, 6-7pm </description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/liu-he-ba-fa-class.shtml</moreLink>
+		<showUntilDate>2016-01-25</showUntilDate>
+    	</announcement>
+	<announcement>
+		<title>Upcoming Wudang Dan Jian Elixir Sword class</title>
+		<description>Wudang Sword plays an important role in traditional Chinese Wushu. The form movements are graceful and smooth. The goal is to achieve the unification of the sword and the body.\n\nClass starts on Dec 1st, 2015, Tue, 6-7pm</description>>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2016-01-25</showUntilDate>
+	</announcement>   
+	<announcement>
+		<title>2016 SYL Annual Internal Martial Arts and Qigong Retreat is now available for registration!</title>
+		<description>This year we offer Qigong, Wuji and Beginner Taiji classes from Aug 1st to Aug 7th. For more detail information please click to view our workshop page.</description>
+		<moreLink>http://shouyuliang.com/classes/2016-internal-chinese-martial-arts-and-qigong-retreat.php</moreLink>
+		<showUntilDate>2016-08-08</showUntilDate>
+	</announcement>  
+	<announcement>
+		<title>Upcoming Wudang Taiji Sword class</title>
+		<description>Wudang is the one of the major school in China. It plays an important role in traditional Chinese Wushu. This form bears Taiji sword and Wudang Sword basics and flavours.\n\nClass starts Sept 27th, 2016, Tue, 6-7pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2016-11-15</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming 48 form Taiji - Beginner class</title>
+		<description>The 48 form Taiji is a standarized Taiji quan routine that was compiled by the Chinese Sports Committee in 1976. It is based on the Yang style Taijiquan, but also includes moves and components from the other major style such as Chen, Wu and Sun styles of Taijiquan. \nClass starts on July 9th, 2016, every Saturday 3-4pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2016-08-20</showUntilDate>
+	</announcement> 
+	<announcement>
+		<title>Wuji Xiao Yao System Class</title>
+		<description>One year has passed. This class is now available for registration again. This is a one-year training class taught by Grandmaster Shouyu Liang. Training includes Dapeng Qigong, Iron Shirt Conditioning, Xiao Yao Na grappling form and Wuji Form.\n\nClass starts on Nov 22st, 2016, every Tue 7-8:15pm.</description>
+		<moreLink>http://shouyuliang.com/classes/wuji-xiao-yao-class.php</moreLink>
+		<showUntilDate>2017-01-30</showUntilDate>
+	</announcement> 
+	<announcement>
+		<title>Upcoming Chen Style Old Frame No 1 Long Fist class</title>
+		<description>Chen style Taiji is known for its silk reeling power and steady footwork. Old frame no 1 routine is also called Lau Jia Yi Lu Long Fist.\n\nClass starts Oct 1st, 2015, Thur, 7-8pm</description>>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2015-09-30</showUntilDate>
+	</announcement>	      
+	<announcement>
+		<title>Yang Style Taiji - Beginner class</title>
+		<description>Yang style Taiji is one of the most popular and widely practised style in the world today. It's known for its soft and graceful movements. It's very sutiabe for beginners to start with.\nClass postpones to March 16, 2015, every Monday 6-7pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2015-04-20</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Traditional Yang Style Taiji Sword</title>
+		<description>Class starts on Feb 10th, 2015, every Tue 6-7pm.</description>
+		<moreLink>http://shouyuliang.com/classes/taiji-class.php</moreLink>
+		<showUntilDate>2015-03-15</showUntilDate>
+	</announcement>  
+	<announcement>
+		<title>Upcoming Beginner Liu He Ba Fa (Water Style) class - San Pan Shi Er Shi</title>
+		<description>The San Pan Shi Er Shi is a 12 animal routine for Water Style. It is also a foundation training routine that includes advancing, retreating, rising and lowering movements which is designed to develop reaction skills for combat.\n\nClass starts Dec 10th, 2016, Sat, 3-4pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/liu-he-ba-fa-class.shtml</moreLink>
+		<showUntilDate>2017-01-20</showUntilDate>
+	</announcement>
+	    
+	<announcement>
+		<title>Upcoming New Qigong Class</title>
+		<description>Qigong most often refers to the art and science of using breath, posture, movement, and/or sound to cleanse, refine, accumulate and circulate Qi in the body.Through the cultivation and regulation of body, mind, breathing, and vocalization, our resistance to disease, adaptability to the external environment, and immunity to pathogenic influences is strengthened. With a strong immune system, diseases are prevented, creating a state of super health, vitality, and youthfulness for the practitioner.\nQigong class will be covering varies types of Qigong such us Health Maintenance, Daoist and Buddhist Qigong\n\nSat Health Qigong class starts on April 22nd, 2017, Sat, 2-3pm\nThur Health Qigong class starts on May 18th, 2017, Thur, 5-6pm\nTue ONE-YEAR class starts when minimum number of registrants of 20 is met, Tue, 6-7pm\nTue Advance Daoist Qigong starts on Jan 3rd, Tue, 5-6pm</description>
+		<moreLink>http://shouyuliang.com/classes/qigong-class.php</moreLink>
+		<showUntilDate>2030-12-31</showUntilDate>
+	</announcement>
+	
+
+	<class style="qigong">
+		<title>Health Qigong</title>
+		<startDate>2017-04-22</startDate>
+		<day>Saturday</day>
+		<startTime>14:00</startTime>
+		<endTime>15:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="qigong">
+		<title>Health Qigong</title>
+		<startDate>2017-05-18</startDate>
+		<day>Thursday</day>
+		<startTime>17:00</startTime>
+		<endTime>18:00</endTime>
+		<note>Health Qigong class. Min 10 people to start. Please register early to avoid cancellation of the class.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="qigong">
+		<title>Advance Daoist Qigong</title>
+		<startDate>2017-01-03</startDate>
+		<day>Tuesday</day>
+		<startTime>17:00</startTime>
+		<endTime>18:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is a four months course. Payment of $315 will be collected at the first class.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="qigong">
+		<title>Daoist Qigong</title>
+		<startDate>2017</startDate>
+		<day>Tuesday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 20 people to start. Please register early to avoid cancellation of the class. This is a ONE-YEAR long course. Payment of $1260 in full or by 4 $315 post-dated cheque will be collected prior to the start of the first class.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>1260</cost>
+	      <frequency>YEAR</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Taiji 24 Form -Beginner Class</title>
+		<startDate>2017-06-05</startDate>
+		<day>Monday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Traditional Yang Style Taiji Long Form 108</title>
+		<startDate>2017-06-05</startDate>
+		<day>Monday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>		
+   	<class style="Taiji">
+		<title>Taiji 32 sword -Beginner Class</title>
+		<startDate>2017-05-27</startDate>
+		<day>Saturday</day>
+		<startTime>15:00</startTime>
+		<endTime>16:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Taiji 32 sword -Beginner Class</title>
+		<startDate>2017-06-27</startDate>
+		<day>Tuesday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Taiji Chen Style- 56 Compulsory Routine</title>
+		<startDate>2016-12-08</startDate>
+		<day>Thursday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Chen Style Taiji Sword</title>
+		<startDate>2017-05-18</startDate>
+		<day>Thursday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Wudang Taiji Sword</title>
+		<startDate>2016-09-27</startDate>
+		<day>Tuesday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="lhbf">
+		<title>Beginner Liu He Ba Fa (Water Style) - San Pan Shi Er Shi</title>
+		<startDate>2016-12-10</startDate>
+		<day>Saturday</day>
+		<startTime>15:00</startTime>
+		<endTime>16:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+        <fee>
+	        <cost>30</cost>
+	        <frequency>CLASS</frequency>
+	        <duration>1</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	        <cost>315</cost>
+	        <frequency>Months</frequency>
+	        <duration>Every 4</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote>This fee is for 18 sessions</feeNote>
+	    </fee>
+	</class>
+	<class style="lhbf">
+		<title>Liu He Ba Fa (Water Style) Sword</title>
+		<startDate>2016-12-08</startDate>
+		<day>Thursday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class. This is an eight months class. 1st payment of $315 will be collected at the first class and 2nd payment of $315 will be collected at the beginning of the 5th month.</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>315</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>Every 4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Friday</day>
+		<startTime>19:00</startTime>
+		<endTime>21:00</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER/BOTH Friday or/and Saturday classes. Payment to be made at the beginning of each month.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>100</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes. Payment to be made at the beginning of each month.</feeNote>
+	   </fee>
+	</class>
+
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Saturday</day>
+		<startTime>16:00</startTime>
+		<endTime>18:00</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER/BOTH Friday or/and Saturday classes. Payment to be made at the beginning of each month.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>100</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes. Payment to be made at the beginning of the each month. Payment to be made at the beginning of each month.</feeNote>
+	   </fee>
+	</class>
+
+	<class style="xiaoyao">
+		<title>Wuji Xiao Yao System and Wushu Qigong</title>
+		<startDate>2016-11-22</startDate>
+		<day>Tuesday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:15</endTime>
+		<note>As training in this style is long-term, payment for one year in full or by post-dated monthly cheques is required upon joining.</note>
+		<fee>
+	      <cost>40</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	      <cost>95</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+
+</schedule>

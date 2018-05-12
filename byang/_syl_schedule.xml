@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Valid class styles:
+'qigong'
+'taiji'
+'wushu'
+'sanshou'
+'xingyi'
+'bagua'
+'lhbf'
+'xiaoyao'
+-->
+<schedule>
+	<announcement>
+		<title>Upcoming Water Style class - San Pan Shi Er Shi</title>
+		<description>The San Pan Shi Er Shi is a 12 animal routine for Water Style. It is also a foundation training routine that includes advancing, retreating, rising and lowering movements which is designed to develop reaction skills for combat.\n\nClass starts January 4th, 2014, Sat, 3-4pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2014-03-01</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming Chen Style Taiji Sword class</title>
+		<description>Chen style Taiji is known for its silk reeling power and steady footwork. Sword is the most widely practiced weapon for Taiji. The movements in this routine are sometimes slow, sometimes fast, sometimes soft, sometimes hard, sometimes high and sometimes low. It is graceful and powerful.\n\nClass starts January 30th, 2014, Thur, 7-8pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2014-03-03</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming Beginner 24 Form Taiji class</title>
+		<description>The 24 Form Taiji is the most widely practiced simplified Taiji in the world. It was compiled by the Chinese Sports Commissions with the goal of standardizing and popularizing Taiji. It is the foundation for many other styles of Taiji including both fist and weapon routines. It is great for beginners and all age groups.\n\nClass starts January 04th, 2014, Sat, 3-4pm\nClass starts January 06th, 2014, Mon, 6-7pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2014-02-22</showUntilDate>
+	</announcement>
+        <announcement>
+		<title>Upcoming Yang Style Taiji 40 Form class</title>
+		<description>Yang style Taiji is one of the most widely practiced Taiji in the world. It's known for its gentle, soft and graceful movements. Great for health and fitness purpose, and great for all age groups\n\nClass starts January 21st, 2014 Tue, 7-8pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2014-03-03</showUntilDate> 
+	</announcement>
+	<announcement>
+		<title>Upcoming New Qigong Class</title>
+		<description>Qigong most often refers to the art and science of using breath, posture, movement, and/or sound to cleanse, refine, accumulate and circulate Qi in the body.Through the cultivation and regulation of body, mind, breathing, and vocalization, our resistance to disease, adaptability to the external environment, and immunity to pathogenic influences is strengthened. With a strong immune system, diseases are prevented, creating a state of super health, vitality, and youthfulness for the practitioner.\nQigong class will be covering varies types of Qigong such us Health Maintenance, Daoist and Buddhist Qigong\n\nSat class postpones to Nov 16th, 2013, Sat, 2-3pm\nTue class started on on Feb 18th, 2014, 6-7pm.\nThur class started on on Feb 20th, 2014, 5-6pm.</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/qigong-class.shtml</moreLink>
+		<showUntilDate>2014-12-31</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Upcoming Wu Style 45 Form class</title>
+		<description>Wu style is one of the major Taiji style in China. It is known for the softness, smoothness and gentleness of its movements, unique footwork, and upright when slanting sinal alignment.\n\nClass starts on March 26th, 2013, Tue, 7-8pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/taiji-class.shtml</moreLink>
+		<showUntilDate>2013-04-30</showUntilDate>
+    	</announcement>
+    	<announcement>
+		<title>Upcoming Water Style Part 1 class</title>
+		<description>Liu He Ba Fa (Water Style) is one of the major internal style martial arts. It originally passed down from generation to generation only to a handful of gifted and chosen students with exemplary courage and moral character. Liu He Ba Fa literally means Six Harmonies and Eight Principles. It utilizes the power of Xingyi as its center, utilizes the stepping patterns of Bagua for its turning and spinning, and utilizes the neutralizing power of Taiji for its variations. Its movements are sometimes high, sometimes low, sometimes fast, sometimes slow. These movements resemble that of floating clouds, and flowing water that is sometimes calm, sometimes surging. Therefore, it is also known as Water Style.\n\nClass starts on Jan 3rd, 2013, Thur, 5:30-6:30pm </description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/liu-he-ba-fa-class.shtml</moreLink>
+		<showUntilDate>2013-02-30</showUntilDate>
+    	</announcement>
+
+   	<announcement>
+		<title>Upcoming Medical and Health Qigong class</title>
+		<description>We will introduce a variety of techniques such as relaxation methods, Qi Permeating Technique which works on absorbing the pure essence of the universe into the body and discharging all the impurities from the body. This allows students to maintain, heal, and rejuvenate the functions of the organs such as the kidneys, liver, lungs, spleen, and heart. We also introduce some traditional Qigong methods for healing specific illnesses such as diabetes, heart disease, tuberculosis, kidney ailments, stomach and duodenal ulcer, liver ailments, high blood pressure, asthma, and many other conditions.\n\nClass starts on March 23rd, 2013, Sat, 2-3pm</description>
+		<moreLink>http://www.shouyuliang.com/classes-schedules-and-fees/qigong-class.shtml</moreLink>
+		<showUntilDate>2013-04-25</showUntilDate>
+       </announcement>
+
+    
+	<class style="qigong">
+		<title>qigong</title>
+		<startDate>2013-11-16</startDate>
+		<day>Satureday</day>
+		<startTime>14:00</startTime>
+		<endTime>15:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="qigong">
+		<title>qigong</title>
+		<startDate>2014-02-18</startDate>
+		<day>Tuesday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	
+	<class style="qigong">
+		<title>qigong</title>
+		<startDate>2014-02-20</startDate>
+		<day>Thursday</day>
+		<startTime>17:00</startTime>
+		<endTime>18:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+
+	<class style="Taiji">
+		<title>Beginner Taiji - 24 Form</title>
+		<startDate>2014-01-04</startDate>
+		<day>Saturday</day>
+		<startTime>15:00</startTime>
+		<endTime>16:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Beginner Taiji - 24 Form</title>
+		<startDate>2014-01-06</startDate>
+		<day>Monday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Chen Style Taiji Sword</title>
+		<startDate>2014-01-30</startDate>
+		<day>Thursday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="Taiji">
+		<title>Yang Style Taiji 40 Form</title>
+		<startDate>2014-01-21</startDate>
+		<day>Tuesday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>Min 10 people to start. Please register early to avoid cancellation of the class</note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+
+	<class style="Taiji">
+		<title>Taiji Fan</title>
+		<startDate>2013-08-30</startDate>
+		<day>Friday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note></note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>Every 4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>10% discount will be applied if taking two or more Taiji classes</feeNote>
+	   </fee>
+	</class>
+
+	<class style="Taiji">
+		<title>Wu Style Taiji 45 Form</title>
+		<startDate>2013-03-26</startDate>
+		<day>Tuesday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>There are no classes on Dec 25 and Jan 1</note>
+     	<fee>
+	        <cost>30</cost>
+	        <frequency>CLASS</frequency>
+	        <duration>1</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	        <cost>300</cost>
+	        <frequency>MONTH</frequency>
+	        <duration>4</duration>
+	        <feeNote>This fee is for 18 sessions</feeNote>
+	    </fee>
+	</class>
+	
+	<class style="Taiji">
+		<title>Taiji - 48 form</title>
+		<startDate>2013-06-11</startDate>
+		<day>Tuesday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note></note>
+     	<fee>
+	        <cost>30</cost>
+	        <frequency>CLASS</frequency>
+	        <duration>1</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	        <cost>300</cost>
+	        <frequency>MONTH</frequency>
+	        <duration>4</duration>
+	        <feeNote>This fee is for 18 sessions</feeNote>
+	    </fee>
+	</class>
+
+	<class style="Taiji">
+		<title>Traditional Yang Style Sword</title>
+		<startDate>2012-05-02</startDate>
+		<day>Thursday</day>
+		<startTime>18:30</startTime>
+		<endTime>19:30</endTime>
+		<note></note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>Every 4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>10% discount will be applied if taking two or more Taiji classes</feeNote>
+	   </fee>
+	</class>
+
+	<class style="lhbf">
+		<title>Water Style Part II</title>
+		<startDate>2013-10-24</startDate>
+		<day>Thursday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note></note>
+        <fee>
+	        <cost>30</cost>
+	        <frequency>CLASS</frequency>
+	        <duration>1</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	        <cost>300</cost>
+	        <frequency>Months</frequency>
+	        <duration>Every 4</duration>
+	        <numberOfFreeClasses></numberOfFreeClasses>
+	        <feeNote>This fee is for 18 sessions</feeNote>
+	    </fee>
+	</class>
+	<class style="lhbf">
+		<title>Water Style - San Pan Shi Er Shi</title>
+		<startDate>2013-01-04</startDate>
+		<day>Saturday</day>
+		<startTime>15:00</startTime>
+		<endTime>16:00</endTime>
+		<note></note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>300</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>Every 4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>10% discount will be applied if taking two or more Taiji classes</feeNote>
+	   </fee>
+	</class>
+
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Friday</day>
+		<startTime>19:00</startTime>
+		<endTime>21:30</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>80</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER/BOTH Friday or/and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>95</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	</class>
+
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Saturday</day>
+		<startTime>16:00</startTime>
+		<endTime>18:30</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>80</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER/BOTH Friday or/and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>95</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	</class>
+
+	<class style="xiaoyao">
+		<title>Wuji Xiao Yao System and Wushu Qigong</title>
+		<startDate>2012-05-08</startDate>
+		<day>Tuesday</day>
+		<startTime>20:00</startTime>
+		<endTime>21:15</endTime>
+		<note>Training includes Dapeng Qigong, Iron Shirt Conditioning, Wuji form and Xiao Yao Zhang (Palm) form and application. As training in this style is long-term, payment for one year in full or by post-dated monthly cheques is required upon joining.  There are no classes on Dec 25 and Jan 1.</note>
+		<fee>
+	      <cost>40</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	    </fee>
+	    <fee>
+	      <cost>90</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+
+</schedule>

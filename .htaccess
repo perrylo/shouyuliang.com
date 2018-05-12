@@ -1,0 +1,59 @@
+RewriteEngine On
+
+
+
+# Newsletter
+RedirectMatch 301 /(200\d.*).shtml /newsletters/$1.php
+
+# About Us
+RedirectMatch 301 /about-us/(.*)\.shtml /about-us/$1.php
+
+# Instructors
+Redirect 301 /current-instructors/index.shtml http://www.shouyuliang.com/instructors/index.php
+RedirectMatch 301 /current-instructors/(?:founder-grandmaster|president|director|instructor|assistant-instructor|webmaster)-(.*)\.shtml /instructors/$1.php
+RedirectMatch 301 /past-instructors/(?:past-)?instructor-(.*)\.shtml /instructors/$1.php
+
+# Classes
+RedirectMatch 301 ^classes-schedules-and-fees/sign-up-for-classes.shtml classes/jumi-registration.php
+RedirectMatch 301 /classes-schedules-and-fees/(.*)\.shtml /classes/$1.php
+
+# Books and DVDs
+RewriteRule ^book/qigong-empowerment.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1889659029&type=ISBN&pageType=book [L]
+RewriteRule ^book/tai-chi-chuan-24-and-48-postures-with-martial-applications.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1886969337&type=ISBN&pageType=book [L]
+RewriteRule ^book/kung-fu-elements.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1889659320&type=ISBN&pageType=book [L]
+RewriteRule ^book/baguazhang-emei-baguazhang-theory-and-applications.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=0940871300&type=ISBN&pageType=book [L]
+RewriteRule ^book/chinese-fast-wrestling-for-fighting.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1886969493&type=ISBN&pageType=book [L]
+RewriteRule ^book/xiaoyaoshuai-wuji-system-free-fighting-take-down-routine.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1889659126&type=ISBN&pageType=book [L]
+RewriteRule ^book/xing-yi-quan.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=0940871084&type=ISBN&pageType=book [L]
+RewriteRule ^book/simplified-tai-chi-chuan-with-applications.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1594392781&type=ISBN&pageType=book [L]
+
+RewriteRule ^dvd/32-posture-taiji-sword.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B004ICDLCU&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/simplified-tai-chi-chuan-with-applications.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=1594390630&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/yin-yang-taiji-13-postures.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B002X0D58Y&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/taiji-13-postures.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B002X0D58O&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/baguazhang-8-trigrams-palm.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B000BL02FG&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/water-style-boxing-liu-he-ba-fa-vol-1.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTWQ&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/water-style-boxing-liu-he-ba-fa-vol-2.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTXA&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/snake-fist-emei-style.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTXK&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/emei-swimming-body-baguazhang.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTXU&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/bagua-sword-shu-shan-emei-xiao-yao.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTY4&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/chinese-weapons-deer-horn-knives.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTZ8&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/chinese-weapons-5-elements-xingyi-sword.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTYE&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/chinese-weapons-5-elements-xingyi-staff-spear.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B000WYEXIY&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/chinese-weapons-12-animals-xingyi-staff-spear.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTYO&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/chinese-weapons-12-animals-xingyi-sword.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B001SAOTYY&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Chen-Style-Tai-Chi-Old-Frame-Routine-1.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B008ENS1UQ&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Selection-of-Traditional-Xing-Yi-Fist-Forms.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B008EX32YG&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Xing-Yi-12-Animals-Fist.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B008EX32XW&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Xing-Yi-5-Elements-Fist.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B008EX330E&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/24-posture-taiji-quan.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B004ZSDAFK&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/48-posture-taiji-quan.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B004ICDLAW&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Tai-Chi-for-Women.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B01MPXOPCD&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Simplified-Tai-Chi-for-Beginners-24-Form.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B0176SAQIY&type=ASIN&pageType=dvd [L]
+RewriteRule ^dvd/Simplified-Tai-Chi-for-Beginners-48-Form.(?:php|shtml) ssi/jumi-amazonProductPage.php?id=B01DAUJY1C&type=ASIN&pageType=dvd [L]
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>

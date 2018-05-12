@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+	<announcement>
+		<title>2010 SYL Annual Banquet is coming up!</title>
+		<description>Date: Dec 19th, 2010 (Door opens at 6pm)\nVenue: Chinatown Float Seafood Restuarnt (400-180 Keefer St, Van)\nTicket price: Reg $35, Vege $30, Children $28. Ticket price includes tax, tips, dinner, demo and parking\n\nSeats are limited and are on first come first serve basis. Please contact Master Tjong Tjhie at ttjhie@shouyuliang.com for tickets purchase</description>
+		<showUntilDate>2010-12-19</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Daoist Qigong class is starting soon. Please register now!</title>
+		<description>Starting Date: Sept 24th, 2010</description>
+		<moreLink>http://www.shouyuliang.com/syl/overview-of-all-classes-classes-36/qigongldivgchi-kungldivg-classes-41</moreLink>
+		<showUntilDate>2010-10-20</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Health Maintenance Qigong class is starting soon. Please register now</title>
+		<description>Starting date: Sept 25, 2010</description>
+		<moreLink>http://www.shouyuliang.com/syl/overview-of-all-classes-classes-36/qigongldivgchi-kungldivg-classes-41</moreLink>
+		<showUntilDate>2010-10-20</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Water Style Part One is starting soon. Please register now!</title>
+		<description>Starting Date: Aug 10th, 2010</description>
+		<moreLink>http://shouyuliang.com/syl/overview-of-all-classes-classes-36/liu-he-ba-faldivgwater-styleldivg-classes-44</moreLink>
+		<showUntilDate>2010-09-30</showUntilDate>
+	</announcement>
+	<announcement>
+		<title>Classes available for registration now:</title>
+		<description>\n1) Taiji (beginner, intermediate, and advanced levels)\n2) Wushu (beginner, intermediate, and advanced levels)\n3) Xing Yi (beginner, intermediate, and advanced levels)\n4) Health Maintenance Qigong\n5) Daoist Qigong\n6) Liu He Ba Fa (Water Style)\n 7) Wuji Xiao Yao Training\n 8) Bagua\n</description>
+		<moreLink>http://shouyuliang.com/syl/overview-of-all-classes-classes-36/sign-up-for-classes</moreLink>
+		<showUntilDate>2018-09-22</showUntilDate>
+	</announcement>
+	<class style="qigong">
+		<title>Daoist Qigong</title>
+		<startDate>2010-09-24</startDate>
+		<day>Friday</day>
+		<startTime>17:00</startTime>
+		<endTime>18:00</endTime>
+		<fee>
+	      <cost>25</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+		<fee>
+	      <cost>240</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+		<note>Min 20 people to start. Please register early to avoid cancellation of the class</note>
+	</class>
+	<class style="qigong">
+		<title>Health Maintenance Qigong</title>
+		<startDate>2010-09-25</startDate>
+		<day>Saturday</day>
+		<startTime>14:00</startTime>
+		<endTime>15:00</endTime>
+		<note>Min 20 people to start. Please register early to avoid cancellation of the class</note>
+		<fee>
+	      <cost>25</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+		<fee>
+	      <cost>240</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>4</duration>
+	      <numberOfFreeClasses>1</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="taiji">
+		<title>Taiji Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Tuesday</day>
+		<startTime>17:30</startTime>
+		<endTime>19:00</endTime>
+		<note></note>
+	   <fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>75</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For EITHER Tuesday or Thursday class only.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>125</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For BOTH Tuesday and Thursday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>450</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>6</duration>
+	      <numberOfFreeClasses>2</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>900</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>12</duration>
+	      <numberOfFreeClasses>6</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="taiji">
+		<title>Taiji Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Thursday</day>
+		<startTime>17:30</startTime>
+		<endTime>19:00</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>75</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>125</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For BOTH Tuesday and Thursday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>450</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>6</duration>
+	      <numberOfFreeClasses>2</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>900</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>12</duration>
+	      <numberOfFreeClasses>6</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Friday</day>
+		<startTime>19:00</startTime>
+		<endTime>21:30</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>65</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER Friday or Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>70</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending EITHER Friday or Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>90</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>540</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>6</duration>
+	      <numberOfFreeClasses>2</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>1080</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>12</duration>
+	      <numberOfFreeClasses>6</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="wushu">
+		<title>Wushu and Sanshou Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Saturday</day>
+		<startTime>16:00</startTime>
+		<endTime>18:30</endTime>
+		<note></note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>65</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending EITHER Friday or Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>70</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For children under 10 attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending EITHER Friday or Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>90</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote>For adults attending BOTH Friday and Saturday classes.</feeNote>
+	   </fee>
+	   <fee>
+	      <cost>540</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>6</duration>
+	      <numberOfFreeClasses>2</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>1080</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>12</duration>
+	      <numberOfFreeClasses>6</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="xingyi">
+		<title>Xingyi Training</title>
+		<startDate>Ongoing</startDate>
+		<day>Saturday</day>
+		<startTime>15:00</startTime>
+		<endTime>16:00</endTime>
+		<note>This is an ongoing class for beginner, intermediate and advanced level students</note>
+      <fee>
+	      <cost>25</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>70</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>420</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>6</duration>
+	      <numberOfFreeClasses>2</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>840</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>12</duration>
+	      <numberOfFreeClasses>6</numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="bagua">
+		<title>Bagua Training</title>
+		<startDate>April 2, 2010</startDate>
+		<day>Friday</day>
+		<startTime>18:00</startTime>
+		<endTime>19:00</endTime>
+		<note>This is an ongoing class for beginner, intermediate and advanced level students</note>
+		<fee>
+	      <cost>25</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>70</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="lhbf">
+		<title>Liu He Ba Fa (Water Style) System Level 2 - Water Style Part 1</title>
+		<startDate>2010-08-10</startDate>
+		<EndDate>2010-06-7</EndDate>
+		<day>Tuesday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>As training in this style is long-term, payment for 10 months in full or by post-dated monthly cheques is required upon joining.</note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="lhbf">
+		<title>Liu He Ba Fa (Water Style) System</title>
+		<startDate>Currently not available</startDate>
+		<day>Thursday</day>
+		<startTime>19:00</startTime>
+		<endTime>20:00</endTime>
+		<note>As training in this style is long-term, payment for one year in full or by post-dated monthly cheques is required upon joining.</note>
+		<fee>
+	      <cost>30</cost>
+	      <frequency>CLASS</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	   <fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+	<class style="xiaoyao">
+		<title>Xiao Yao System and Wushu Qigong</title>
+		<startDate>2009-09-15</startDate>
+		<day>Tuesday</day>
+		<startTime>20:00</startTime>
+		<endTime>21:15</endTime>
+		<note>Training includes Dapeng Qigong, Iron Shirt Conditioning, Xiao Yao System forms and application. As training in this style is long-term, payment for one year in full or by post-dated monthly cheques is required upon joining.</note>
+		<fee>
+	      <cost>85</cost>
+	      <frequency>MONTH</frequency>
+	      <duration>1</duration>
+	      <numberOfFreeClasses></numberOfFreeClasses>
+	      <feeNote></feeNote>
+	   </fee>
+	</class>
+</schedule>

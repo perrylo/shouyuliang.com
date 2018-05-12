@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<announcements>
+	<announcement>
+		<title>
+			<en>Sanshoudao.com released!</en>
+			<ch>Sanshoudao.com 發佈了!</ch>
+		</title>
+		<description>
+			<en>After months of development, the new official International Wushu Sanshoudao Association website is now live!</en>
+			<ch>在經過多月的努力，國際武術散手道聯盟的官方網站現在正式發佈!</ch>
+		</description>
+		<moreLink></moreLink>
+		<startDate>2009-05-01</startDate>
+		<showUntilDate>2009-12-01</showUntilDate>
+	</announcement>
+</announcements>

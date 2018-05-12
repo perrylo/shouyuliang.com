@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<?php
+$globalNavId = "instructors";
+$sectionNavId = "six-unities-eight-principles";
+?>
+
+<html lang="en">
+
+<head>
+<meta name="keywords" content="mind, movements, body, liu, form, yang, heart, yin, stillness, spirit, opponent, power, dao, chinese, internal" />
+<meta name="description" content="Helen Liang on Water Boxing Lie He Ba Fa Chinese martial arts are the essence of Chinese civilization. Several thousands of years in the making, it has developed into two major styles-namely internal and external. Both styles are again divided t" />
+<title>Six Unities Eight Principles - shouyuliang.com</title>
+<?php include "ssi/meta.php"; ?>
+</head>
+
+<body>
+
+<?php include "ssi/header.php"; ?>
+
+<div id="syl-body-bkg">
+	<div id="syl-body">
+		<div id="syl-body1">
+			<div class="contentWidth clearfix">
+				<nav id="syl-breadcrumb" class="breadcrumbs pathway">
+					<a href="/" class="pathway">Home</a> <img src="/templates/syl/images/arrow.png" /> <a href="/classes/" class="pathway"> Classes</a> <img src="/templates/syl/images/arrow.png" /> <a href="/instructors/liu-he-ba-fa.php" class="pathway">Water Style Class</a> <img src="templates/syl/images/arrow.png" alt=""  /> Article - Six Unities Eight Principles
+				</nav>
+
+				<div id="syl-left-col">
+					<?php include "ssi/menu_classes.php"; ?>
+				</div>
+
+				<div id="syl-center-col">
+
+<h2 class="contentheading">Six Unities Eight Principles</h2>
+<br/>
+<img src="../images/lhbf-article/helen-liang-liu-he-ba-fa-1.jpg" width="330" height="436" style="float:left; margin:0 15px 15px 0"/>
+<h2>Helen Liang on Water Boxing Lie He Ba Fa</h2>
+<p>Chinese martial arts are the essence of Chinese civilization. Several thousands of years in the making, it has developed into two major styles-namely internal and external. Both styles are again divided to include countless different styles.  Among the internal styles, the best known and most popular are taiji, xingyi, and bagua. However, there is yet another profound school of internal art known as Liu He Ba Fa, sometimes called 'Water boxing' passed generation to generation for more than a thousand years to a select handful of gifted students with exemplary courage and moral character. As a result of this closed-door system, Liu He Ba Fa has emerged into the world veiled in mystery.</p>
+<p>Liu He Ba Fa incorporates the qualities and strengths of the three internal styles of taiji, xingyi and bagua, yet it is in a class by itself, a unique form of internal martial arts. Its movements are sometimes high, sometimes low, sometimes fast, and sometimes slow. These movements resemble floating clouds and flowing water that is sometimes calm, sometimes surging. Therefore, it is also known as Water style.</p>
+<p>The complete name for Liu He Ba Fa Is Hua Yue Xin Yi Liu He Ba Fa.  “Hua yue” suggests that this form belongs to the school of Hua Mountains. Xin literally refers to the heart and the mind. Liu He Ba Fa is translated as Six Unities Eight Principles.  Liu He Ba Fa is believed to have been created during the time of the Five Dynasties (907-960) and the Song dynasty (960-1279) by a Daoist hermit named Chen Bo who lived on Hua Mountain located in the north central province of Shanxi. Chen Bo was granted the title "Master Xi Yi" by the first emperor of the Song Dynasty. Aside from its martial applications, Liu He Ba Fa was created by Master Xi Yi to primarily benefit health, strengthen the body, dispel sickness and increase longevity.</p>
+<img src="../images/lhbf-article/helen-liang-liu-he-ba-fa-2.jpg" width="400" height="288" style="float:left; margin:0 15px 15px 0"/>
+<p>Liu He Ba Fa is an internal form that embodies profound Daoist philosophies and gracefully shows its practitioners the working of the Dao- the ultimate essence of reality. Literally, Liu He means Six Unities. These Six Unities vividly present the central theme of Daoism - the yin yang theories. The Chinese believed that everything in the universe is interrelated. Everything has an opposing yet inseparable counterpart. The counterparts are referred to as yin and yang ~night/day, earth heaven, feminine/masculine, cold hot, weak/strong, etc.). Yyin and yang can never exist in total isolation from one another; each is a different side of the same coin. Yin and yang constantly interact and change. How yin or yang is defined depends on the perspective of the viewer. The relation and interaction of yin and yang form the basis of thought and expression in Daoism and throughout the whole of Chinese culture. Maintaining a balance of yin and yang will result in perfect health of body, mind and spirit. In Liu He Ba F3, the Six Unities gracefully depict how yin and yang harmonize each other. The Six Unities are:</p>
+<br clear="all"/>
+<img src="../images/lhbf-article/helen-liang-liu-he-ba-fa-3.jpg" width="400" height="265" style="float:right; margin:0 0 15px 15px"/>
+<ol>
+   <li>"Ti (Body Unites with Xin Heart-Mind)"<br />Xin refers literally to heart in Chinese; however, it is taken to mean "mind." According to traditional Chinese medicine, our heart is not just a pump; it is intuitive and all-knowing /holisticj. A very popular Buddhist saying is "Ten thousand things all manifest from the heart." In everyday life, Chinese often say, "It depends on how your heart thinks or feels" or "What is this person's heart like," demonstrating the importance of our heart-mind. It is through the heart-mind that we perceive and interpret everything around us. Here in this first unity, heart-mind is yang and body is yin. Heart-mind is in motion; it is easily active and emotional. The heart-mind controls the actions and functions of the body. When in harmony, the relationship between heart, mind and body is natural and intuitive.</li>
+   <li>"Xin (Heart-Mind) Unites with yi (Logical Mind)"<br />According to Chinese concepts, we have two minds. The heart-mind is also the emotional mind (xin and the other is logical mind Xin is emotional and hard to keep steady, whereas yi is logical and can keep you calm. Xin is yang and yi is yin and the two minds interact to keep one in balance.</li>
+   <li>"Yi (Logical Mind) Unites with Qi (Energy)"<br />Yi symbolizes yin. Qi is flowing. By being in motion it symbolizes yang. Our mind leads the flow of qi in our body; where our mind goes, our qi follows.</li>
+   <li>"Qi (energy) unites with shen  (spirit)"<br />Qi is yang while shen is yin. Heightened spirit allows smoother flow of qi and blood in the body. Conversely, a smoother flow of qi and blood raises the spirit.</li>
+   <li>"Shen (spirit) Unites with Dong (Action)"<br />Shen is yin. Donq refers to movement and is classified as yang. A heightened spirit calls for better body movements.</li>
+   <li>"Don (Action) Unites with Kong (Emptiness)”<br />Kong is referring to a state of stillness. Here, kong acts as yin and dong acts as yang. The movements of the body heighten our concentration and unify our outer and inner qi. An inner stillness is maintained while engaging in myriad movements - a "doing not doing" state of body-awareness where the movements happen by themselves effortlessly. Therefore, within stillness there is action and within action there is stillness. This coexistence of opposites - stillness and movement, or yin and yang - enables the practitioner to unleash his/her creativity in all directions.</li>
+</ol>
+<img src="../images/lhbf-article/helen-liang-liu-he-ba-fa-4.jpg" width="400" height="260" style="float:right; margin:0 0 15px 15px"/>
+<p>Ba fa means Eight Principles. They are qi (energy), gu (bone),  xing (shape), sui (follow), ti (lift), huan (return), le (rein in), fu (hiding).</p>
+<ol>
+   <li>Qi (Energy): "Circulating Qi to Gather the Spirit"<br />The smooth flow of qi along the many channels (meridians) and vessels allows the smooth circulation of blood; the Chinese believe that the smooth flow of qi and blood in the body is the key to optimal health. The spirit gathered by the circulation of qi dissolves into the form and becomes one with the form. Thus, the practitioner is the form and the form is the practitioner. It is like qigong cultivation where the small universe of our body unifies with the big universe of the cosmos. From the perspective of applications, only when spirit is gathered and qi is abundant is one able to attain a state of perfect coordination of action and stillness. In other words, once a faint intention of movement is suggested, the entire body moves all at once; once a faint intention of stillness is suggested, the entire body calms down. When one's opponent is not moving, one does not move; when one's opponent is about to move, one precedes the opponent. This perfect coordination of stillness and action allows the practitioner to have ultimate control over the opponent.</li>
+   <li>Gu (Bone): "Condensing the Power to the Bones"<br />Some slender and un-muscular people can be surprisingly powerful. This kind of power is referred to as internal power or gu jin (bone power). Form training together with conditioning training can strengthen bone power which in turn strengthens internal power. Internal power, however, must to be conserved rather than outwardly displayed, which (seen as stiffness of movements) could lead to qi and blood stagnation. For combat, condensing one's power to the bones will hide it from the opponent, leaving the opponent unsure how to react next. When attacking, the mind leads the power which is hastened by the qi. This power is abundant and unpredictable, thereby making the opponent unable to withstand the attack.</li>
+   <li>Xing (Shape): "Transcend the Forms through Mimicking the Shapes and Movements"<br />Many movements in Liu He Ba Fa mimic the shapes and movements of animals, plants or other natural phenomena as suggested by the names of the movements: Wild Geese Flying in Pairs, Nimble Monkey Picks the Fruit, Crouching Tiger Listens to the Wind, High Mountain Flowing Water, Swallow Flies Through the Clouds, Gentle Breeze Sweeps the Leaves, etc. However, while practicing these movements, you don't completely mimic the physical shapes and movements; rather, you dissolve into the phenomena, striving to attain unity its shape and spirit. When in combat, it is vital to be flexible, to attain a state of formlessness and shapelessness, thus leaving the opponent without a trace to follow or opportunity for attack.</li>
+   <li>Sui (Follow): "Coherence Coupled with Fluidity"<br />One is expected to practice the entire form of Liu He Ba Fa with continuity, never breaking the flow of qi, power, or movements. Each movement follows what the mind directs. One movement immediately follows the previous movement. The end of one movement and the beginning of the next echo each other, constantly moving in four directions in a smooth fashion. Combat requires a high level of body coordination. Whether attacking or defending, one's movements or techniques should be highly coherent and fluid.</li>
+   <li>Ti (Elevating, Lifting): "Head Suspended in Emptiness"<br />Ti refers to the way the body is relaxed while practicing the form. This kind of relaxation is not flaccid; one's spirit should be lifted and body postures correct. The head should feel suspended. Imagine that the bai hui cavity atop your head is suspended by a thread. Through this visualization, the mind becomes empty in nature. When the head is slightly lifted, it will be upright with the neck relaxed. One's appearance will have a sense of vitality, and this heightened spirit wilt intimidate the opponent.</li>
+   <li>Huan (Return): "Coming and Going in a Continuous Flow"<br />This mirrors the cyclic nature of the Dao's endless motion and change. Chapter 25 of the Dao De Jing says that the "Dao” "travels far" and "returns." The idea is that everything around us is undergoing a constant flow of transformation and change. All things show cyclic patterns of coming and going, of expansion and contraction, and this is the ultimate constant of nature. One who embraces this nature of cyclical change and acts with spontaneity will thrive. The entire form of Liu He Ba Fa is practiced in a continuous and flowing fashion. Movements are carried out in a spontaneous manner. When practicing the form, one moves in all directions with stances that are sometimes high, sometimes low, and speed that is at times fast, other times slow. It is like the surging water with movements that are strong and powerful and the gentle stream with movements that are lithe and supple - all directed by the mind and manifested spontaneously. In combat, one must to move with agility - attacking and retreating with effortless ease, employing strategies like "feinting to the east and attacking the west" and moving in myriad ways, sometimes forward, sometimes backward, sometimes to the left and sometimes to the right, ever misleading the opponent.</li>
+   <img src="../images/lhbf-article/helen-liang-liu-he-ba-fa-5.jpg" width="250" height="447" style="float:right; margin:0 0 15px 15px"/>
+   <li>Le (Rein In): "Keep the Still and Guard the Empty"<br />Le refers to one's ability to take the reins of control. As the movements o f the form are ever-changing, coming and going continuously, cultivation of the mind is crucial to fully master these movements and act with spontaneity. The mind needs to be still and calm. This mirrors the emptiness and stillness of the Dao. Chapter i6 of the "Dao De Jin,~' asks one to "empty oneself" of everything, to bring stillness to the mind and peace to the heart. Stillness and emptiness is the way of nature. Emptiness is the source of being and stillness is the root of motion. Therefore, all being must begin with emptiness and all movement must be born in stillness, and all must return to emptiness and stillness in the end. This is the cyclic pattern of nature. One who embraces it and acts with spontaneity will thrive. By "emptying oneself of everything" and having a still and calm mind, one can take the reins	` in the midst of the ever-changing movements. In combat, a still and calm mind responds well to all situations.</li>
+   <li>Fu (Conceal): "Illusive in Concealing Strategies"<br />Fu means to hide, to conceal. Like the Dao that is hidden deep but ever present, Liu He Ba Fa has the aesthetic quality of floating clouds and flowing water. Many martial techniques are well concealed beneath its surface, hidden within the movements and postures. Like water, the movements are sometimes calm, sometimes surging, sometimes high, sometimes low/ ever changing and unpredictable. The applications are wrapped in a veil of ever-changing and unpredictable movements, making them hard to detect and thus befuddling the opponent.</li>
+</ol>
+<p>The entire form of Liu He Ba Fa is governed by the mind. It emphasizes the harmonious interaction between the yin and yang. It requires the cultivation of both form and spirit, a balance o f soft and hard, fast and slow, and a continuous flow of rise and fall. As such, it brings its audience the beauty of softness and gentleness coupled with strength and vigor, vivacity coupled with sacredness, and expansiveness coupled with compactness. From the perspective of applied martial arts, its movements hold useful applications and allow a variety of two-person set training. For health and longevity it provides a form of qigong – namely Daoist moving qigong.  The versatility of Liu He Ba Fa is beyond imagination.</p>
+<p>My journey practicing Liu He Ba Fa over the past two decades has been extremely humbling and enlightening. It has guided me through good and bad and generously showed me the Way, or Dao- the Dao that is silent, yet engages in ceaseless motion and activity; that is hidden deep, yet ever present; that exists nowhere, yet everywhere. This Dao is up to you to fathom.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php include "ssi/footer.php"; ?>
+
+</body>
+
+</html>

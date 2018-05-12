@@ -1,0 +1,31 @@
+[22-Jun-2017 23:10:42 UTC] PHP Warning:  include(../ssi/menu_books.php): failed to open stream: No such file or directory in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 127
+[22-Jun-2017 23:10:42 UTC] PHP Warning:  include(../ssi/menu_books.php): failed to open stream: No such file or directory in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 127
+[22-Jun-2017 23:10:42 UTC] PHP Warning:  include(): Failed opening '../ssi/menu_books.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 127
+[22-Jun-2017 23:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 209
+[22-Jun-2017 23:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 217
+[22-Jun-2017 23:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 225
+[22-Jun-2017 23:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 247
+[22-Jun-2017 23:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 299
+[22-Jun-2017 23:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 209
+[22-Jun-2017 23:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 217
+[22-Jun-2017 23:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 225
+[22-Jun-2017 23:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 247
+[22-Jun-2017 23:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 299
+[22-Jun-2017 23:12:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 209
+[22-Jun-2017 23:12:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 217
+[22-Jun-2017 23:12:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 225
+[22-Jun-2017 23:12:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 247
+[22-Jun-2017 23:12:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 299
+[22-Jun-2017 23:12:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 209
+[22-Jun-2017 23:12:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 217
+[22-Jun-2017 23:12:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 225
+[22-Jun-2017 23:12:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 247
+[22-Jun-2017 23:12:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 299
+[22-Jun-2017 23:57:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 209
+[22-Jun-2017 23:57:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 217
+[22-Jun-2017 23:57:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 225
+[22-Jun-2017 23:57:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 247
+[22-Jun-2017 23:57:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 299
+[14-Dec-2017 02:04:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 187
+[14-Dec-2017 02:04:37 UTC] PHP Parse error:  syntax error, unexpected ''<div class="contentTitle">For' (T_ENCAPSED_AND_WHITESPACE) in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 249
+[14-Dec-2017 02:05:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sansh3/public_html/shouyuliang.com.new/ssi/jumi-amazonProductPage.php on line 187
