@@ -25,8 +25,8 @@
 	$classUrls['lhbf'] = '/classes/liu-he-ba-fa-class.php';
 	$classUrls['xiaoyao'] = '/classes/wuji-xiao-yao-class.php';
 
-	if (file_exists(realpath(DIRNAME(__FILE__).'/../../shouyuliang.com.new/byang/syl_schedule.xml'))) {
-	    $xml = simplexml_load_file(realpath(DIRNAME(__FILE__).'/../../shouyuliang.com.new/byang/syl_schedule.xml'));
+	if (file_exists(realpath(DIRNAME(__FILE__).'/../../shouyuliang.com/byang/syl_schedule.xml'))) {
+	    $xml = simplexml_load_file(realpath(DIRNAME(__FILE__).'/../../shouyuliang.com/byang/syl_schedule.xml'));
 	    $aTodaysDate = getdate();
 	    $oTodaysDate = date("Y-m-d", mktime(0,0,0, $aTodaysDate[mon], $aTodaysDate[mday], $aTodaysDate[year]));
 ?>
@@ -36,7 +36,7 @@
 <?php
 	foreach ($xml->class as $class){
 		// Start Date Display
-		$startDateMessage = "This class is <i>ongoing</i> for beginners, intermediate and advanced students.  Students of any level can join at any time.  Minimum age to start is 7.  Children under 12 need to phone to inquire spot availability before starting.";
+		$startDateMessage = "This class is <i>ongoing</i> for beginners, intermediate and advanced students.  Students of any level can join at any time.  Minimum age to start is 6.  Children under 12 need to phone to inquire spot availability before starting.";
 		$oDaysPassed = 0;
 		if (strcasecmp($class->startDate, 'TBA') == 0){
 			$startDateMessage = "Starting date TBA - please check back later";

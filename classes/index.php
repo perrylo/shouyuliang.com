@@ -42,9 +42,9 @@ $globalNavId = "classes";
 		<p>Shou-Yu Liang Wushu Taiji Qigong Institute full class schedule and fees</p>
 
 		<h2 class="contentheading">
-			<a href="2018-internal-chinese-martial-arts-and-qigong-retreat.php" class="contentpagetitle">2018 Internal Chinese Martial Arts and Qigong Retreat</a>
+			<a href="2019-internal-chinese-martial-arts-and-qigong-retreat.php" class="contentpagetitle">2019 Internal Chinese Martial Arts and Qigong Retreat</a>
 		</h2>
-		<p>August 1-7 2018, Vancouver, BC</p>
+		<p>August 1-7 2019, Vancouver, BC</p>
 
 
 		<table id="classSummary">

@@ -120,19 +120,12 @@ td { vertical-align:top; padding:4px; }
                 <td>
                    <table>
                       <tr>
-                         <td>Main Training Hall:</td>
-                         <td>
-                            <div align="left">604.255.5149<br /></div>
-                            <span class="small">(during normally scheduled classes only)</span>
-                         </td>
+                         <td>Primary:</td>
+                         <td>604.716.2338</td>
                       </tr>
                       <tr>
-                         <td>FAX:</td>
-                         <td>604.273.9648</td>
-                      </tr>
-                      <tr>
-                         <td>Administration:</td>
-                         <td>604.716.8580<br />778.317.9648</td>
+                         <td>Secondary:</td>
+                         <td>604.716.8580</td>
                       </tr>
                    </table>
                    <br/>

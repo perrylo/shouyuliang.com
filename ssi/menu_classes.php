@@ -1,7 +1,7 @@
 <ul class="menunew">
    <li><a href="index.php">Classes</a>
       <ul>
-         <li <?php if($sectionNavId=="retreat"){ ?>class="active"<?php } ?>><a href="/classes/2018-internal-chinese-martial-arts-and-qigong-retreat.php">2018 Internal Chinese Martial Arts and Qigong Retreat</a></li>
+         <li <?php if($sectionNavId=="retreat"){ ?>class="active"<?php } ?>><a href="/classes/2019-internal-chinese-martial-arts-and-qigong-retreat.php">2019 Internal Chinese Martial Arts and Qigong Retreat</a></li>
          <li <?php if($sectionNavId=="schedule"){ ?>class="active"<?php } ?>><a href="/classes/all-class-schedules-fees.php">All Class Schedules/Fees</a></li>
          <li <?php if($sectionNavId=="signup"){ ?>class="active"<?php } ?>><a href="/classes/sign-up-for-classes.php">Sign Up for Classes</a></li>
          <li <?php if($sectionNavId=="wushu"){ ?>class="active"<?php } ?>><a href="/classes/wushu-class.php">Wushu</a></li>

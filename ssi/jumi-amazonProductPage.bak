@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<?php
+$globalNavId = "books-dvds";
+$sectionNavId = (string)$_GET['id'];
+?>
+
+
+<?php
+function aws_signed_request($region, $params, $public_key, $private_key){
+    /*
+    Parameters:
+        $region - the Amazon(r) region (ca,com,co.uk,de,fr,jp)
+        $params - an array of parameters, eg. array("Operation"=>"ItemLookup",
+                        "ItemId"=>"B000X9FLKM", "ResponseGroup"=>"Small")
+        $public_key - your "Access Key ID"
+        $private_key - your "Secret Access Key"
+    */
+
+    // some paramters
+    $method = "GET";
+    $host = "ecs.amazonaws.".$region;
+    $uri = "/onca/xml";
+
+    // additional parameters
+    $params["Service"] = "AWSECommerceService";
+    $params["AWSAccessKeyId"] = $public_key;
+    // GMT timestamp
+    $params["Timestamp"] = gmdate("Y-m-d\TH:i:s\Z");
+    // API version
+    $params["Version"] = "2009-03-31";
+
+    // sort the parameters
+    ksort($params);
+
+    // create the canonicalized query
+    $canonicalized_query = array();
+    foreach ($params as $param=>$value)
+    {
+        $param = str_replace("%7E", "~", rawurlencode($param));
+        $value = str_replace("%7E", "~", rawurlencode($value));
+        $canonicalized_query[] = $param."=".$value;
+    }
+    $canonicalized_query = implode("&", $canonicalized_query);
+
+    // create the string to sign
+    $string_to_sign = $method."\n".$host."\n".$uri."\n".$canonicalized_query;
+
+    // calculate HMAC with SHA256 and base64-encoding
+    $signature = base64_encode(hash_hmac("sha256", $string_to_sign, $private_key, True));
+
+    // encode the signature for the request
+    $signature = str_replace("%7E", "~", rawurlencode($signature));
+
+    // create request
+    $request = "http://".$host.$uri."?".$canonicalized_query."&Signature=".$signature;
+
+    // echo $request;
+    
+    // do request
+    $response = @file_get_contents($request);
+
+    if ($response === False)
+    {
+        return False;
+    }
+    else
+    {
+        // parse XML
+        $pxml = simplexml_load_string($response);
+        if ($pxml === False)
+        {
+            return False; // no xml
+        }
+        else
+        {
+            return $pxml;
+        }
+    }
+}
+
+
+//Function to display an item attribute
+//$attributeTitle	is the title to display
+//$attributeValue	is the value to display
+function displayProductAttribute($attributeTitle,$attributeValue,$attributeValueExtra)
+{
+	if (strcasecmp($attributeValue,'') == 0) return '';
+	if (strcasecmp($attributeTitle,'Region:')==0 && strcasecmp($attributeValue,'0')==0) $attributeValue = 'All regions';
+    return '<div class="contentTitle">'.$attributeTitle.'</div><div class="contentBody">'.$attributeValue.' '.$attributeValueExtra.'</div>';
+}
+
+
+// Define Amazon request
+$id = $_GET['id'];
+$type = $_GET['type'];
+$pageType = $_GET['pageType'];
+$public_key = "0Y0DHAA1TTZN5J5YTD02";
+$private_key = "m0mSKuySQMRvV3JEKol5t6aS9LZ0WBoFt8X0Qh79";
+$xml = aws_signed_request("com", array("Operation"=>"ItemLookup","ItemId"=>$id,"Idtype"=>$type,"AssociateTag"=>"theofficiasho-20","MerchantId"=>"All","ResponseGroup"=>"Offers, Reviews, EditorialReview, Images, ItemAttributes"), $public_key, $private_key);
+?>
+
+
+<?php //var_dump($xml) ?>
+
+
+<html lang="en">
+
+<head>
+<meta name="keywords" content="<?php if (strcasecmp($xml->Items->Request->IsValid, 'True') == 0){ ?><?=$xml->Items->Item->ItemAttributes->Title?><?php } ?>" />
+<meta name="description" content="<?php if (strcasecmp($xml->Items->Request->IsValid, 'True') == 0){ ?><?=$xml->Items->Item->ItemAttributes->Title?><?php } ?>" />
+<title><?php if (strcasecmp($xml->Items->Request->IsValid, 'True') == 0){ ?><?=$xml->Items->Item->ItemAttributes->Title?><?php } ?></title>
+<?php include "../ssi/meta.php"; ?>
+</head>
+
+<body>
+
+<?php include "../ssi/header.php"; ?>
+
+<div id="syl-body-bkg">
+  <div id="syl-body">
+    <div id="syl-body1">
+      <div class="contentWidth clearfix">
+        <nav id="syl-breadcrumb" class="breadcrumbs pathway">
+        	<a href="/" class="pathway">Home</a> <img src="/templates/syl/images/arrow.png" /> <a href="/books-dvds/<?= $pageType ?>s-index.php" class="pathway"><?= $pageType ?>s</a> <img src="/templates/syl/images/arrow.png" /> <?php if (strcasecmp($xml->Items->Request->IsValid, 'True') == 0){ ?><?=$xml->Items->Item->ItemAttributes->Title?><?php } ?>
+        </nav>
+
+		<div id="syl-left-col">
+			<?php include "../ssi/menu_".$pageType."s.php"; ?>
+		</div>
+
+		<div id="syl-center-col">
+<?php
+if (strcasecmp($xml->Items->Request->IsValid, 'True') == 0)
+{
+	// Valid response - display content
+	$listPriceValue = (int)$xml->Items->Item->ItemAttributes->ListPrice->Amount;
+	$listPriceDisplay = $xml->Items->Item->ItemAttributes->ListPrice->FormattedPrice;
+	$offerPriceValue = (int)$xml->Items->Item->Offers->Offer[0]->OfferListing->Price->Amount;
+	$offerPriceDisplay = $xml->Items->Item->Offers->Offer[0]->OfferListing->Price->FormattedPrice;
+?>
+
+<div id="amazonProduct">
+    <img src="<?=$xml->Items->Item->LargeImage->URL?>" width="<?=$xml->Items->Item->LargeImage->Width?>" height="<?=$xml->Items->Item->LargeImage->Height?>" alt="<?=$xml->Items->Item->ItemAttributes->Title?>" class="largeProductImage">
+<?php
+    if ($offerPriceValue)
+    {
+        //Amazon has this product in stock - show price
+?>
+    <div class="buyBox">
+		<img src="/images/amazon/amazon-logo.png" alt="amazon.com" class="amazonTitle">
+		<h2><?=$xml->Items->Item->ItemAttributes->Title?></h2>
+		<p>Current price at <b>amazon.com</b>:</p>
+		<div class="priceInfo">
+<?php
+    	if ($offerPriceValue==$listPriceValue || $offerPriceValue>$listPriceValue)
+    	{
+    		//No sales currently
+    		echo '<div class="salePrice left">Price:</div><div class="salePrice right"><b>'.$offerPriceDisplay.'</b> USD</div>';
+    		echo '<br/></br/>';
+    	}
+    	else
+    	{
+    		//There's a sale!
+    		$savings = $listPriceValue - $offerPriceValue;
+    		$savingsDollars = $savings/100;
+    		$savingsPercent = round($savings/$listPriceValue*100,2);
+    		echo '<div class="salePrice left"><strong>ON SALE:</strong></div><div class="salePrice right"><b>'.$offerPriceDisplay.'</b> USD</div>';
+    		echo '<div class="listPrice left">List Price:</div><div class="listPrice right">'.$listPriceDisplay.'</div>';
+    		echo '<div class="youSave">Save $'.$savingsDollars.' ('.$savingsPercent .'%)</div>';
+    	}
+
+        // Display Availability (based on offer 1)
+    	echo '<p>';
+		echo '<b>Availability:</b>   Product ships from Amazon.com. '.$xml->Items->Item->Offers->Offer[0]->OfferListing->Availability;
+		if (strcasecmp($xml->Items->Item->Offers->Offer[0]->OfferListing->IsEligibleForSuperSaverShipping,'1') == 0 )
+		{
+			echo 'This item ships for <b>FREE with Super Saver Shipping</b> from Amazon.';
+		}
+		echo ' (<a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3D746148&tag=theofficiasho-20&linkCode=ur2&camp=1789&creative=9325" target="_blank">View Amazon.com shipping rates and policies</a>)<img src="http://www.assoc-amazon.com/e/ir?t=theofficiasho-20&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />';
+	    echo '</p>';
+?>
+		</div>
+		<form method="GET" action="http://www.amazon.com/gp/aws/cart/add.html">
+			<input type="hidden" name="AWSAccessKeyId" value="0Y0DHAA1TTZN5J5YTD02" />
+			<input type="hidden" name="AssociateTag" value="theofficiasho-20" />
+			<input type="hidden" name="ASIN.1" value="<?= $xml->Items->Item->ASIN; ?>" />
+			<input type="hidden" name="Quantity.1" value="1"/>
+			<input type="hidden" name="OfferListingId.1" value="<?= $xml->Items->Item->Offers->Offer[0]->OfferListing->OfferListingId; ?>" />
+			<input type="hidden" name="ExchangeId.1" value="<?= $xml->Items->Item->Offers->Offer[0]->OfferListing->ExchangeId; ?>" />
+			<input type="hidden" name="SellerId.1" value="<?= $xml->Items->Item->Offers->Offer[0]->Seller->SellerId; ?>" />
+			<input type="image" src="/images/amazon/buy-at-amazon.gif" width="160" name="submit.add-to-cart" height="27" />
+		</form>
+		<b style="color:#ff0000;">Note: prices displayed come directly from Amazon.com are subject to change without notice.</b>
+	</div>
+<?php
+    }
+    else
+    {
+        //Amazon doesn't have this product in stock... general referral to martialartsmart.com
+?>
+    <!--
+    MartialArtsMart Affiliate link stopped working
+    <a class="mam" href="http://store.yahoo.com/cgi-bin/clink?martialartsmart+4a5f43+index.html+" target="_blank"><b><?=$xml->Items->Item->ItemAttributes->Title?></b><br>is available from <img src="/images/amazon/buy-at-mam.gif" alt="MartialArtsMart.com"></a> -->
+    <a class="mam" href="http://www.martialartsmart.com/" target="_blank"><b><?=$xml->Items->Item->ItemAttributes->Title?></b><br>is available from <img src="/images/amazon/buy-at-mam.gif" alt="MartialArtsMart.com"></a>
+<?php
+    }
+?>
+	<br clear="all">
+	<h1><?=$xml->Items->Item->ItemAttributes->Title?></h1>
+<?php
+	// Display Author
+	$authoredTitle = '<b>Written by:</b> ';
+	foreach ($xml->Items->Item->ItemAttributes->Author as $author)
+	{
+		echo $authoredTitle.$author;
+		$authoredTitle = ', ';
+	}
+
+	// Display Actors
+	$starringTitle = '<b>Featuring:</b> ';
+	foreach ($xml->Items->Item->ItemAttributes->Actor as $actor)
+	{
+		echo $starringTitle.$actor;
+		$starringTitle = ', ';
+	}
+
+	// Display Directors
+	$directedTitle = '<br/><b>Directed by:</b> ';
+	foreach ($xml->Items->Item->ItemAttributes->Director as $director)
+	{
+		echo $directedTitle.$director;
+		$directedTitle = ', ';
+	}
+
+	// Display Rating
+	if (strcasecmp($xml->Items->Item->CustomerReviews->AverageRating,'')!=0 && intval($xml->Items->Item->CustomerReviews->AverageRating)>2)
+	{
+		echo '<p><img src="/images/amazon_new/stars-'.str_replace(".","-",$xml->Items->Item->CustomerReviews->AverageRating).'.gif" class="amazonstars" alt="">Avg rating '.$xml->Items->Item->CustomerReviews->AverageRating.' out of 5.0 stars,<br/>based on '.$xml->Items->Item->CustomerReviews->TotalReviews.' customer reviews at Amazon.</p>';
+	}
+
+	// Display Attributes
+	echo '<div class="contentSection"><h2>Product Details</h2>';
+
+		// Display Formats
+		$formatSeparator = '<div class="contentTitle">Format:</div><div class="contentBody">';
+		if (strcasecmp($xml->Items->Item->ItemAttributes->Binding,'') != 0 )
+		{
+			echo $formatSeparator.$xml->Items->Item->ItemAttributes->Binding;
+			$formatSeparator = ', ';
+		}
+		foreach ($xml->Items->Item->ItemAttributes->Format as $itemAttributeFormat)
+		{
+			echo $formatSeparator.$itemAttributeFormat;
+			$formatSeparator = ', ';
+		}
+		if (strcasecmp($formatSeparator,', ') == 0 ) echo '</div>';
+
+		// Display Languages
+		if (strcasecmp($xml->Items->Item->ItemAttributes->Languages,'') != 0 )
+		{
+			$formatSeparator = '<div class="contentTitle">Languages:</div><div class="contentBody">';
+			foreach ($xml->Items->Item->ItemAttributes->Languages->Language as $itemAttributeLanguage)
+			{
+				echo $formatSeparator.$itemAttributeLanguage->Name;
+				$formatSeparator = ', ';
+			}
+			if (strcasecmp($formatSeparator,', ') == 0 ) echo '</div>';
+		}
+
+		echo displayProductAttribute("Region:",$xml->Items->Item->ItemAttributes->RegionCode,"");
+		echo displayProductAttribute("Publisher:",$xml->Items->Item->ItemAttributes->Publisher,"");
+		echo displayProductAttribute("Released:",$xml->Items->Item->ItemAttributes->ReleaseDate,"");
+		echo displayProductAttribute("Published on:",$xml->Items->Item->ItemAttributes->PublicationDate,"");
+		echo displayProductAttribute("Duration:",$xml->Items->Item->ItemAttributes->RunningTime,$xml->Items->Item->ItemAttributes->RunningTime[Units],"");
+		echo displayProductAttribute("Pages:",$xml->Items->Item->ItemAttributes->NumberOfPages,"");
+
+		if (strcasecmp($xml->Items->Item->ItemAttributes->PackageDimensions->Height[Units],$xml->Items->Item->ItemAttributes->PackageDimensions->Length[Units])==0 && strcasecmp($xml->Items->Item->ItemAttributes->PackageDimensions->Height[Units],$xml->Items->Item->ItemAttributes->PackageDimensions->Width[Units])==0)
+		{
+			$packageWidth = (double)$xml->Items->Item->ItemAttributes->PackageDimensions->Width;
+			$packageLength = (double)$xml->Items->Item->ItemAttributes->PackageDimensions->Length;
+			$packageHeight = (double)$xml->Items->Item->ItemAttributes->PackageDimensions->Height;
+			$packageDimensionUnits = strpos($xml->Items->Item->ItemAttributes->PackageDimensions->Height[Units],"inches") !== false ? "inches" : "";
+			if (strpos($xml->Items->Item->ItemAttributes->PackageDimensions->Height[Units],"hundredths") !== false)
+			{
+				$packageWidth = $packageWidth/100;
+				$packageLength = $packageLength/100;
+				$packageHeight = $packageHeight/100;
+			}
+			echo displayProductAttribute("Dimensions:",$packageWidth.' x '.$packageLength.' x '.$packageHeight,$packageDimensionUnits);
+		}
+
+		$packageWeight = (double)$xml->Items->Item->ItemAttributes->PackageDimensions->Weight;
+		if (strpos($xml->Items->Item->ItemAttributes->PackageDimensions->Weight[Units],"hundredths") !== false)
+		{
+			$packageWeight = $packageWeight/100;
+		}
+		$packageWeightUnits = strpos($xml->Items->Item->ItemAttributes->PackageDimensions->Weight[Units],"pounds") !== false ? "pounds" : "";
+		echo displayProductAttribute("Shipping Weight:",$packageWeight,$packageWeightUnits);
+
+	echo '</div>';
+
+	// Display Editorial Review
+	foreach ($xml->Items->Item->EditorialReviews->EditorialReview as $editorialReview)
+	{
+		echo '<div class="contentSection">';
+			echo '<h2>'.$editorialReview->Source.'</h2>';
+			echo $editorialReview->Content;
+		echo '</div>';
+	}
+
+	// Display Reviews
+	if (((int)$xml->Items->Item->CustomerReviews->TotalReviews) > 0 )
+	{
+		echo '<div class="contentSection">';
+		echo '<h2>Top Customer Reviews at Amazon</h2>';
+		foreach ($xml->Items->Item->CustomerReviews->Review as $customerReview)
+		{
+			if (intval($customerReview->Rating)>2)
+			{
+				echo '<div class="amazonReview">';
+					echo '<div class="reviewTitle">';
+						echo '<img src="/images/amazon_new/stars-'.str_replace(".","-",$customerReview->Rating.'.0').'.gif" class="amazonstars" alt="">'.$customerReview->Summary;
+					echo '</div>';
+					echo '<div class="reviewSubtitle">';
+						echo ' Reviewed '.$customerReview->Date.' - ';
+						echo $customerReview->HelpfulVotes.' of '.$customerReview->TotalVotes.' people found the following review helpful:';
+					echo '</div>';
+					echo '<div class="reviewContent">'.$customerReview->Content.'</div>';
+				echo '</div>';
+			}
+		}
+		echo '</div>';
+	}
+?>
+</div>
+
+<?php
+}
+else
+{
+	// Invalid response
+}
+?>
+
+	</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php include "../ssi/footer.php"; ?>
+
+</body>
+
+</html>

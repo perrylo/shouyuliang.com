@@ -27,7 +27,7 @@
       <li>
         <a href="/classes/index.php">Classes</a>
         <ul class="headerMenu" style="min-width:200px;">
-          <li><a href="/classes/2018-internal-chinese-martial-arts-and-qigong-retreat.php">2018 Workshops</a></li>
+          <li><a href="/classes/2019-internal-chinese-martial-arts-and-qigong-retreat.php">2019 Workshops</a></li>
           <li><a href="/classes/all-class-schedules-fees.php">Full Class Schedule</a></li>
           <li><a href="/classes/sign-up-for-classes.php">Sign Up for Classes</a></li>
           <li><a href="/classes/wushu-class.php">Wushu</a></li>
@@ -65,7 +65,7 @@
       <!-- Books Menu -->
       <li>
         <a href="/books-dvds/books-index.php">Books</a>
-        <ul class="headerMenu" style="min-width:200px;">
+<!--         <ul class="headerMenu" style="min-width:200px;">
           <li><a href="/book/qigong-empowerment.php">Qigong Empowerment</a></li>
           <li><a href="/book/simplified-tai-chi-chuan-with-applications.php">Simplified Tai Chi Chuan</a></li>
           <li><a href="/book/kung-fu-elements.php">Kung Fu Elements</a></li>
@@ -73,13 +73,13 @@
           <li><a href="/book/chinese-fast-wrestling-for-fighting.php">Chinese Fast Wrestling</a></li>
           <li><a href="/book/xiaoyaoshuai-wuji-system-free-fighting-take-down-routine.php">Xiao Yao Shuai</a></li>
           <li><a href="/book/xing-yi-quan.php">Xing Yi Quan</a></li>
-        </ul>
+        </ul> -->
       </li>
 
       <!-- DVDs Menu -->
       <li>
         <a href="/books-dvds/dvds-index.php">DVDs</a>
-        <ul class="headerMenu" style="min-width:250px;">
+<!--         <ul class="headerMenu" style="min-width:250px;">
            <li><a href="/dvd/Simplified-Tai-Chi-for-Beginners-48-Form.shtml">Simplified 48 Form Tai Chi</a></li>
            <li><a href="/dvd/Simplified-Tai-Chi-for-Beginners-24-Form.shtml">Simplified 24 Form Tai Chi</a></li>
            <li><a href="/dvd/Tai-Chi-for-Women.shtml">Tai Chi For Women</a></li>
@@ -101,7 +101,7 @@
            <li><a href="/dvd/chinese-weapons-5-elements-xingyi-staff-spear.shtml">5 Elements Xingyi Spear</a></li>
            <li><a href="/dvd/chinese-weapons-12-animals-xingyi-staff-spear.shtml">12 Animals Xingyi Spear</a></li>
            <li><a href="/dvd/chinese-weapons-12-animals-xingyi-sword.shtml">12 Animals Xingyi Sword</a></li>
-        </ul>
+        </ul> -->
       </li>
 
       <li><a href="http://www.facebook.com/sylwushu" target="_blank">SYL Facebook</a></li>

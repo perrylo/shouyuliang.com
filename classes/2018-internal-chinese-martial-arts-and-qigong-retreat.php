@@ -41,30 +41,36 @@ $sectionNavId = "retreat";
 
 			<br clear="all"/>
 			<br/>
-<!-- 
+
 			<div style="padding:15px; border:solid 1px orange; border-radius:5px; background:#fff; ">
-				<h3 class="workshopSchedule">List of Confirmed Registrants as of July 12, 2018</h3>
+				<h3 class="workshopSchedule">List of Confirmed Registrants as of July 10, 2018</h3>
 				<br>
-				<p><b>All workshops are proceeding as scheduled.  The confirmed address for all workshops is: <a href="http://maps.google.com/maps?f=q&hl=en&q=10480+Westminster+Hwy,+Richmond+BC&ie=UTF8&om=1" target="_blank">10480 Westminster Hwy, Richmond BC</a></b></p>
-				<ul type="square" style="margin-left:30px;">
-					<li>Jean</li>
-					<li>Lydia</li>
-					<li>Louise</li>
-					<li>Anthony Ayala</li>
-					<li>Tammy L Bilodeau</li>
-					<li>Kevin Boyd</li>
-					<li>Ronald Jones</li>
-					<li>Manny Kiesser</li>
-					<li>Leonard Krause</li>
-					<li>Faith A Lelievre</li>
-					<li>Dian Loro</li>
-					<li>Susan Nash</li>
-					<li>Mina Nozar</li>
-					<li>Jack Sam</li>
-					<li>Judy Wielenga</li>
+<!-- 				<p><b>All workshops are proceeding as scheduled.  The confirmed address for all workshops is: <a href="http://maps.google.com/maps?f=q&hl=en&q=10480+Westminster+Hwy,+Richmond+BC&ie=UTF8&om=1" target="_blank">10480 Westminster Hwy, Richmond BC</a></b></p> -->
+				<ol type="square" style="margin-left:30px;">
+					<li>Tammy Bilodeau - All</li>
+					<li>Dian Lori - All</li>
+					<li>ManFred  F, Kiesser - All</li>
+					<li>Faith A.Lelievre - All</li>
+					<li>Rosemarie Wong - Qiqong</li>
+					<li>Mike Wong - Qigong</li>
+					<li>Janyce J Hayes - All</li>
+					<li>Kevin Boyd - All</li>
+					<li>Vincent Kam - All</li>
+					<li>Jack Sam - Qigong</li>
+					<li>Ron Jones - Chen, Qigong, Liu He Ba Fa</li>
+					<li>Susan Nash - All</li>
+					<li>Wilson Tse - Qigong</li>
+					<li>Raymond Tan - Qigong</li>
+					<li>Ling F Ku - Qigong</li>
+					<li>Gigi Oh - Qigong</li>
+					<li>Leonard B Krause - All</li>
+					<li>Georg - All</li>
+					<li>Udi - All</li>
+					<li>Pam Hart - All</li>
+					<li>Jeffrey G Bettger - Water Style</li>
 				</ul>
 			</div>
-			<br/> -->
+			<br/>
 
 			<h3 class="workshopSchedule">Available Seminars:</h3>
 			<ul>
